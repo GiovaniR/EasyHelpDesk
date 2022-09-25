@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace EHD.WebApi.Controllers
 {
+    /// <summary>To Delete</summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -18,11 +19,13 @@ namespace EHD.WebApi.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
+        /// <summary>To DELETE</summary>
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
         }
 
+        /// <summary>To DELETE</summary>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

@@ -4,5 +4,53 @@
         <name>EHD.WebApi</name>
     </assembly>
     <members>
+        <member name="T:EHD.WebApi.Controllers.WeatherForecastController">
+            <summary>To Delete</summary>
+        </member>
+        <member name="M:EHD.WebApi.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{EHD.WebApi.Controllers.WeatherForecastController})">
+            <summary>To DELETE</summary>
+        </member>
+        <member name="M:EHD.WebApi.Controllers.WeatherForecastController.Get">
+            <summary>To DELETE</summary>
+        </member>
+        <member name="T:EHD.WebApi.Program">
+            <summary>Main Class</summary>
+        </member>
+        <member name="M:EHD.WebApi.Program.Main(System.String[])">
+            <summary>Main Method</summary>
+        </member>
+        <member name="M:EHD.WebApi.Program.CreateHostBuilder(System.String[])">
+            <summary>Static Builder for app</summary>
+        </member>
+        <member name="T:EHD.WebApi.Startup">
+            Startup Class for WebApi  
+        </member>
+        <member name="M:EHD.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            Startup Method for WebApi
+        </member>
+        <member name="P:EHD.WebApi.Startup.Configuration">
+            Config Property
+        </member>
+        <member name="M:EHD.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            Service Config
+        </member>
+        <member name="M:EHD.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            Config
+        </member>
+        <member name="T:EHD.WebApi.WeatherForecast">
+            <summary>To DELETE</summary>
+        </member>
+        <member name="P:EHD.WebApi.WeatherForecast.Date">
+            <summary>To DELETE</summary>
+        </member>
+        <member name="P:EHD.WebApi.WeatherForecast.TemperatureC">
+            <summary>To DELETE</summary>
+        </member>
+        <member name="P:EHD.WebApi.WeatherForecast.TemperatureF">
+            <summary>To DELETE</summary>
+        </member>
+        <member name="P:EHD.WebApi.WeatherForecast.Summary">
+            <summary>To DELETE</summary>
+        </member>
     </members>
 </doc>

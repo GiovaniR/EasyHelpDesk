@@ -9,13 +9,16 @@ using System.Threading.Tasks;
 
 namespace EHD.WebApi
 {
+    /// <summary>Main Class</summary>
     public class Program
     {
+        /// <summary>Main Method</summary>
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
 
+        /// <summary>Static Builder for app</summary>
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
